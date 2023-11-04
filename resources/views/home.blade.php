@@ -8,10 +8,10 @@
 		<meta name="keywords" content="creative, modern, clean, html5, css3, portfolio, blog, agency, templates, minimal">
 
 		<!-- favicon -->
-		<link rel="shortcut icon" href="assets/images/favicon.png">
-		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+		<link rel="shortcut icon"  href="{{ asset('assets/images/favicon.png')}}">
+		<link rel="apple-touch-icon"  href="{{ asset('assets/images/apple-touch-icon-57x57.png')}}">
+		<link rel="apple-touch-icon" sizes="72x72"  href="{{ asset('assets/images/apple-touch-icon-72x72.png')}}">
+		<link rel="apple-touch-icon" sizes="114x114"  href="{{ asset('assets/images/apple-touch-icon-114x114.png')}}">
 
 		<title>TrafficRein Digital</title>
 
@@ -19,8 +19,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 		<!-- styles -->
-		<link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
-		<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+		<link href="{{ asset('assets/css/plugins.css')}}" rel="stylesheet" type="text/css">
+		<link  href="{{ asset('assets/css/style.css')}}" rel="stylesheet" type="text/css">
 	</head>
 	<body class="preloader cursor-anim-enable">
 		<div class="preloader__out-overlay"></div>
@@ -44,7 +44,7 @@
 			<!-- logo start -->
 			<div class="header-logo">
 				<a href="index.html" class="header-logo__box js-pointer-large js-animsition-link">
-					<img class="header-logo__img" src="assets/images/logo/logo.png" alt="logo">
+					<img class="header-logo__img" src="{{ asset('assets/images/logo/logo.png')}}" alt="logo">
 				</a>
 			</div><!-- logo end -->
 
@@ -349,7 +349,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<img class="anim-opacity-scale" src="assets/images/home projects/credosite1.png" alt="Project">
+												<img class="anim-opacity-scale" src="{{ asset('assets/images/home projects/credosite1.png" alt="Project')}}">
 											</div>
 										</div><!-- project img end -->
 
@@ -373,7 +373,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<img class="anim-opacity-scale" src="assets/images/home projects/artemis1.png" alt="Project">
+												<img class="anim-opacity-scale" src="{{ asset('assets/images/home projects/artemis1.png')}}" alt="Project">
 											</div>
 										</div><!-- project img end -->
 
@@ -397,7 +397,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<img class="anim-opacity-scale" src="assets/images/home projects/mohsin.png" alt="Project">
+												<img class="anim-opacity-scale" src="{{ asset('assets/images/home projects/mohsin.png')}}" alt="Project">
 											</div>
 										</div><!-- project img end -->
 
@@ -421,7 +421,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<img class="anim-opacity-scale" src="assets/images/home projects/cronus4k.png" alt="Project">
+												<img class="anim-opacity-scale" src="{{ asset('assets/images/home projects/cronus4k.png')}}" alt="Project">
 											</div>
 										</div><!-- project img end -->
 
@@ -445,7 +445,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<video src="assets/images/home projects/luxoroshwatch.mp4" class="width-100perc anim-opacity-scale" muted loop autoplay playsinline poster="assets/images/home projects/luxoroshwatch.mp4"></video>
+												<video src="{{ asset('assets/images/home projects/luxoroshwatch.mp4')}}" class="width-100perc anim-opacity-scale" muted loop autoplay playsinline poster="assets/images/home projects/luxoroshwatch.mp4"></video>
 											</div>
 										</div><!-- project img end -->
 
@@ -469,7 +469,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<img class="anim-opacity-scale" src="assets/images/home projects/papipanda.png" alt="Project">
+												<img class="anim-opacity-scale" src="{{ asset('assets/images/home projects/papipanda.png')}}" alt="Project">
 											</div>
 										</div><!-- project img end -->
 
@@ -493,7 +493,7 @@
 										<!-- project img start -->
 										<div class="hidden-box">
 											<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-												<img class="anim-opacity-scale" src="assets/images/home projects/cdb1.png" alt="Project">
+												<img class="anim-opacity-scale" src="{{ asset('assets/images/home projects/cdb1.png')}}" alt="Project">
 											</div>
 										</div><!-- project img end -->
 
@@ -862,7 +862,7 @@
 															</div>
 														</div>
 														<div class="six-columns padding-top-20">
-															<img src="assets/images/home projects/luxury.png" alt="Advantages">
+															<img src="{{ asset('assets/images/home projects/luxury.png')}}" alt="Advantages">
 														</div>
 													</div>
 												</div><!-- swiper-slide end -->
@@ -877,7 +877,7 @@
 															</div>
 														</div>
 														<div class="six-columns padding-top-20">
-															<img src="assets/images/home projects/team.png" alt="Advantages">
+															<img src="{{ asset('assets/images/home projects/team.png')}}" alt="Advantages">
 														</div>
 													</div>
 												</div><!-- swiper-slide end -->
@@ -892,7 +892,7 @@
 															</div>
 														</div>
 														<div class="six-columns padding-top-20">
-															<img src="assets/images/home projects/quality.png" alt="Advantages">
+															<img src="{{ asset('assets/images/home projects/quality.png')}}" alt="Advantages">
 														</div>
 													</div>
 												</div><!-- swiper-slide end -->
@@ -912,7 +912,7 @@
 										<div class="hidden-box">
 											<div data-scroll data-scroll-speed="-1.2">
 												<div class="anim-img-reveal" data-scroll style="background-image:url(assets/images/team/ian-dooley-wzRKn-AjKf4-unsplash.jpg)">
-													<img src="assets/images/team/ian-dooley-wzRKn-AjKf4-unsplash.jpg" alt="Afridi Shams">
+													<img src="{{ asset('assets/images/team/ian-dooley-wzRKn-AjKf4-unsplash.jpg')}}" alt="Afridi Shams">
 												</div>
 											</div>
 										</div>
@@ -943,7 +943,7 @@
 										<div class="hidden-box">
 											<div data-scroll data-scroll-speed="-1.2">
 												<div class="anim-img-reveal" data-scroll style="background-image:url(assets/images/team/force-majeure-GGPq78xM8T0-unsplash.jpg)">
-													<img src="assets/images/team/force-majeure-GGPq78xM8T0-unsplash.jpg" alt="Shahoriar Fahim">
+													<img src="{{ asset('assets/images/team/force-majeure-GGPq78xM8T0-unsplash.jpg')}}" alt="Shahoriar Fahim">
 												</div>
 											</div>
 										</div>
@@ -1100,7 +1100,7 @@
 		</div><!-- scroll-content end -->
 
 		<!-- scripts -->
-		<script src="assets/js/plugins.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="{{ asset('assets/js/plugins.js')}}"></script>
+		<script src="{{ asset('assets/js/main.js')}}"></script>
 	</body>
 </html>
