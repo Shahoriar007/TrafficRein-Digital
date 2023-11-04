@@ -202,7 +202,7 @@
                                                 <div class="text-olive">TrafficReing Digital</div>
                                             </div>
                                             <h4 class="text-white">TrafficReing Digital</h4>
-                                            <h5 class="text-olive">eeeeeeee your digital journey - from strategy to execution. Innovating your digital landscape - 360 degree solution at a time.</h5>
+                                            <h5 class="text-olive">iiiiiiiii your digital journey - from strategy to execution. Innovating your digital landscape - 360 degree solution at a time.</h5>
 
                                         </div>
                                     </div>
