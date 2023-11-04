@@ -57,7 +57,7 @@
 			</div><!-- menu-icon end -->
 		</header><!-- header end -->
 
-		<!-- navigation overlay -->
+		<!-- navigation overlay  -->
 		<div class="nav-overlay"></div>
 		<!-- navigation start -->
 		<nav class="nav-container js-dropdown-active-box">
