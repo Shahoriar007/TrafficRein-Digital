@@ -16,11 +16,11 @@
         <link href="../assets/img/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
 
         <!-- Page Title -->
-        <title>TrafficRein - Home</title>    
-        
+        <title>TrafficRein Home</title>
+
         <!-- Styles Include -->
         <link rel="stylesheet" href="../assets/css/style.css">
-        
+
     </head>
 
 
@@ -32,11 +32,11 @@
 				<div class="spinner"></div>
 				<div class="loading-text">
 					<span data-preloader-text="T" class="characters">T</span>
-					
+
 					<span data-preloader-text="R" class="characters">R</span>
-					
+
 					<span data-preloader-text="A" class="characters">A</span>
-					
+
 					<span data-preloader-text="F" class="characters">F</span>
 
                     <span data-preloader-text="F" class="characters">F</span>
@@ -56,18 +56,18 @@
 			</div>
 		</div>
 
-        
+
 
         <!-- Color Mode Switcher -->
 		<div id="mode_switcher">
-			<span><i class="bi bi-moon-fill"></i></span>	
-		</div>        
+			<span><i class="bi bi-moon-fill"></i></span>
+		</div>
 
         <!-- Cursor Effect -->
         <div class="pointer bnz-pointer" id="bnz-pointer"></div>
 
         <!-- Header -->
-		<header class="header">				
+		<header class="header">
             <div class="container-fluid">
                 <div class="header_inner d-flex align-items-center justify-content-between">
                     <div class="logo">
@@ -75,7 +75,7 @@
                         <a href="index.html" class="dark_logo"><img src="../assets/img/logo-gray.svg" alt="logo"></a>
                     </div>
 
-                    
+
                     <div class="mainnav d-none">
                         <ul class="main_menu">
                             <li class="menu-item menu-item-has-children active"><a href="{{ route('home') }}">Home</a></li>
@@ -93,8 +93,8 @@
                                     <li class="menu-item"><a href="project-details-2.html">Social Media Marketing & Management</a></li>
                                 </ul>
                             </li>
-                            
-                            
+
+
                             <!-- <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="about.html">About Us</a></li>
@@ -110,7 +110,7 @@
                                             <li class="menu-item"><a href="service-2.html">Service Two</a></li>
                                             <li class="menu-item"><a href="service-details.html">Service Details</a></li>
                                         </ul>
-                                    </li>                              
+                                    </li>
                                     <li class="menu-item menu-item-has-children"><a href="#">Shop</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="shop-1.html">Shop One</a></li>
@@ -128,7 +128,7 @@
                             </li> -->
                             <li class="menu-item"><a href="{{ route('services') }}">Services</a></li>
                             <li class="menu-item"><a href="{{ route('contact') }}">Contacts</a></li>
-                            
+
                             <!-- <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="blog.html">Blog</a></li>
@@ -143,13 +143,13 @@
                             <span class="line"></span>
                             <span class="line"></span>
                         </button>
-                        
+
                         <div class="open_search">
                             <form class="search_form" action="search.php">
                                 <input type="text" name="search" class="keyword form-control" placeholder="Search...">
                                 <button type="submit" class="form-control-submit"><i class="bi bi-search"></i></button>
                             </form>
-                        </div>							
+                        </div>
                         <button class="ma5menu__toggle d-block" type="button">
                             <i class="bi bi-list"></i>
                         </button>
@@ -166,7 +166,7 @@
             </div>
 			<div class="aside_info_inner">
                 <p>Mrittik Architects is a full-service design firm providing architecture architecture.</p>
-                
+
                 <div class="aside_info_inner_box">
                     <h5>Contact Info</h5>
                     <p>+123 456 789 33</p>
@@ -186,9 +186,9 @@
                 </div>
 			</div>
 		</div>
-        
+
         <!-- Main Wrapper-->
-        <main class="wrapper">                
+        <main class="wrapper">
 
             <div class="theme_slider_2 p-0">
                 <div class="swiper swiper_theme_slider_2">
@@ -203,7 +203,7 @@
                                             </div>
                                             <h4 class="text-white">TrafficReing Digital</h4>
                                             <h5 class="text-olive">Empowering your digital journey - from strategy to execution. Innovating your digital landscape - 360 degree solution at a time.</h5>
-                                            
+
                                         </div>
                                     </div>
                                 </div>
@@ -221,9 +221,9 @@
                                             <h4><a href="project-details.html" class="text-white">Accelerate your online success with our digital expertise. Let’s deep dive and make your business shine!</a></h4>
                                             <div class="details_link">
                                                 <a href="blog-details.html">
-                                                    <span class="link_text">View Details</span> 
+                                                    <span class="link_text">View Details</span>
                                                     <span class="link_icon">
-                                                        <span class="line"></span> 
+                                                        <span class="line"></span>
                                                         <span class="circle"></span>
                                                         <span class="dot"></span>
                                                     </span>
@@ -246,9 +246,9 @@
                                             <h4><a href="project-details.html" class="text-white">Building websites that build your business. Where every pixel counts, We turn your vision into a digital reality</a></h4>
                                             <div class="details_link">
                                                 <a href="blog-details.html">
-                                                    <span class="link_text">View Details</span> 
+                                                    <span class="link_text">View Details</span>
                                                     <span class="link_icon">
-                                                        <span class="line"></span> 
+                                                        <span class="line"></span>
                                                         <span class="circle"></span>
                                                         <span class="dot"></span>
                                                     </span>
@@ -271,9 +271,9 @@
                                             <h4><a href="project-details.html" class="text-white">Transforming ideas into digital reality. Innovating the future, one line of code at a time. Our code, your success - let's create something great</a></h4>
                                             <div class="details_link">
                                                 <a href="blog-details.html">
-                                                    <span class="link_text">View Details</span> 
+                                                    <span class="link_text">View Details</span>
                                                     <span class="link_icon">
-                                                        <span class="line"></span> 
+                                                        <span class="line"></span>
                                                         <span class="circle"></span>
                                                         <span class="dot"></span>
                                                     </span>
@@ -309,7 +309,7 @@
             <li class="grid_line"></li>
             <li class="grid_line"></li>
         </ul>
-        
+
 
         <!-- Core JS -->
         <script src="../assets/js/jquery-3.6.0.min.js"></script>
@@ -317,22 +317,22 @@
 
         <!-- Side Menu -->
         <script src="../plugins/menu/ma5-menu.min.js"></script>
-        
+
         <!-- Swiper for Slider Type -->
         <script src="../plugins/swiper/swiper-bundle.min.js"></script>
-        
-        
-        
+
+
+
 
         <!-- Cursor Effect -->
         <script src="../plugins/cursor-effect/cursor-effect.js"></script>
-        
+
         <!-- Select2 -->
         <script src="../plugins/select2/js/select2.min.js"></script>
-        
+
         <!-- AOS effect JS -->
         <script src="../plugins/aos/aos.js"></script>
-        
+
         <!-- Theme Custom JS -->
         <script src="../assets/js/theme.js"></script>
     </body>
