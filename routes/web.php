@@ -34,13 +34,19 @@ Route::get('/services', function () {
     return view('services');
 })->name('services');
 
+Route::get('/web-development', function () {
+    return view('web_development');
+})->name('web_development');
+
+Route::get('/app-development', function () {
+    return view('app_development');
+})->name('app_development');
+
 Route::get('/digital-marketing', function () {
     return view('digital_marketing');
 })->name('digital_marketing');
 
-Route::get('/web-development', function () {
-    return view('web_development');
-})->name('web_development');
+
 
 Route::get('/copy-writing', function () {
     return view('copy_writing');

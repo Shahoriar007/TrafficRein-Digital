@@ -12,8 +12,7 @@
 		<link rel="apple-touch-icon"  href="{{ asset('assets/images/apple-touch-icon-57x57.png')}}">
 		<link rel="apple-touch-icon" sizes="72x72"  href="{{ asset('assets/images/apple-touch-icon-72x72.png')}}">
 		<link rel="apple-touch-icon" sizes="114x114"  href="{{ asset('assets/images/apple-touch-icon-114x114.png')}}">
-
-		<title>TrafficRein Digital | Web Development</title>
+		<title>TrafficRein Digital | App Development</title>
 
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -190,14 +189,14 @@
 					<section id="up" class="pos-rel hidden-box" data-scroll-section>
 						<div class="page-head-footer-overlay-fix" data-scroll data-scroll-repeat>
 							<!-- bg-parallax -->
-							<div class="bg-parallax" style="background-image:url(assets/images/portfolio/project_06/wdmain.jpg)" data-scroll data-scroll-speed="-1.5"></div>
+							<div class="bg-parallax" style="background-image:url(assets/images/portfolio/project_06/ad1main.jpg)" data-scroll data-scroll-speed="-1.5"></div>
 
 							<!-- flex-min-height-100vh start -->
 							<div class="flex-min-height-100vh">
 								<div class="padding-top-bottom-120 container text-center after-preloader-anim">
-									<h2 class="headline-xxl headline-uppercase anim-chars-fadein" data-splitting>WEB DEVELOPMENT</h2>
+									<h2 class="headline-xxl headline-uppercase anim-chars-fadein" data-splitting>App Development</h2>
 									<div data-scroll data-scroll-speed="-0.4" data-scroll-position="top">
-										<div class="subhead-s subhead-uppercase anim-chars-blur" data-splitting>Your Website Deserves to Stand Out</div>
+										<div class="subhead-s subhead-uppercase anim-chars-blur" data-splitting>Application Development Services for Your Business</div>
 									</div>
 								</div>
 							</div><!-- flex-min-height-100vh end -->
@@ -218,8 +217,8 @@
 							<!-- marquee start -->
 							<div class="marquee headline-xl hidden-box" data-duration="10000" data-gap="20">
 								Identity / Marketing / <span class="text-stroke-white">UX Design</span> /
-								Branding / Developing / <span class="text-stroke-white">UI Design</span> /
-								Designing / Strategizing / <span class="text-stroke-white">Dynamic</span> /
+								Identity / Marketing / <span class="text-stroke-white">UX Design</span> /
+								Identity / Marketing / <span class="text-stroke-white">UX Design</span> /
 							</div><!-- marquee end -->
 
 							<!-- container start -->
@@ -231,13 +230,31 @@
 									<!-- column start -->
 									<div class="four-columns padding-top-20">
 										<div class="column-r-margin-20 scrollanim-activate" data-scroll data-scroll-offset="20%">
-											<h2 class="headline-xxxs anim-fade-to-left">Service Details</h2>
+											<h2 class="headline-xxxs anim-fade-to-left">Project info</h2>
 										</div>
 									</div><!-- column end -->
 									<!-- column start -->
 									<div class="eight-columns padding-top-20">
 										<div class="scrollanim-activate" data-scroll data-scroll-offset="20%">
-											<p class="body-text-s text-color-dadada anim-fade-to-left tr-delay-01">To help businesses establish a strong digital presence and achieve their goals. Our team of experienced web developers specializes in creating high-performing, feature-packed websites that are designed to be user-friendly, fully functional, and secure. We provide a wide range of web development services</p>
+											<p class="body-text-s text-color-dadada anim-fade-to-left tr-delay-01">Godard slow-carb chartreuse occupy, tumblr letterpress pok pok tattooed yr lyft yuccie kinfolk. IPhone kombucha shaman gastropub snackwave 90's lo-fi pug chillwave pok pok tofu. Swag deep v listicle roof party seitan man braid raclette church-key trust fund locavore vexillologist green juice raw denim tilde meh. Austin thundercats locavore taiyaki snackwave hoodie put a bird on it tattooed selvage kitsch ramps.</p>
+										</div>
+									</div><!-- column end -->
+									<!-- column start -->
+									<div class="four-columns padding-top-60">
+										<div class="column-r-margin-20 scrollanim-activate" data-scroll data-scroll-offset="20%">
+											<h6 class="headline-xxxs anim-fade-to-left">Platforms</h6>
+											<!-- list start -->
+											<ul class="list padding-top-20">
+												<li class="list__item">
+													<p class="subhead-xs anim-fade-to-left tr-delay-01">iOS</p>
+												</li>
+												<li class="list__item">
+													<p class="subhead-xs anim-fade-to-left tr-delay-02">Android</p>
+												</li>
+												<li class="list__item">
+													<p class="subhead-xs anim-fade-to-left tr-delay-03">Windows</p>
+												</li>
+											</ul><!-- list end -->
 										</div>
 									</div><!-- column end -->
 									<!-- column start -->
@@ -267,42 +284,14 @@
 									<!-- column start -->
 									<div class="four-columns padding-top-60">
 										<div class="column-r-margin-20 scrollanim-activate" data-scroll data-scroll-offset="20%">
-											<h6 class="headline-xxxs anim-fade-to-left">Front-end Development Frameworks</h6>
+											<h6 class="headline-xxxs anim-fade-to-left">Frameworks</h6>
 											<!-- list start -->
 											<ul class="list padding-top-20">
 												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-01">React</p>
+													<p class="subhead-xs anim-fade-to-left tr-delay-01">Flutter</p>
 												</li>
 												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-02">Vue.js</p>
-													</li>
-												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-02">jQuery</p>
-												</li>
-												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-03">****</p>
-												</li>
-											</ul><!-- list end -->
-										</div>
-									</div><!-- column end -->
-									<!-- column start -->
-									<div class="four-columns padding-top-60">
-										<div class="column-r-margin-20 scrollanim-activate" data-scroll data-scroll-offset="20%">
-											<h6 class="headline-xxxs anim-fade-to-left">Back-end Development Frameworks</h6>
-											<!-- list start -->
-											<ul class="list padding-top-20">
-												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-01">Laravel</p>
-												</li>
-												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-02">Django</p>
-												</li>
-												</li>
-												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-02">****</p>
-												</li>
-												<li class="list__item">
-													<p class="subhead-xs anim-fade-to-left tr-delay-03">****</p>
+													<p class="subhead-xs anim-fade-to-left tr-delay-02">React Native</p>
 												</li>
 											</ul><!-- list end -->
 										</div>
@@ -317,12 +306,12 @@
 								<!-- column start -->
 								<div class="four-columns column-100-999 padding-top-20">
 									<div class="column-r-margin-20-999">
-										<h3 class="headline-xxs anim-split-lines" data-scroll data-scroll-offset="20%">Why We are Not Another Web Developers?</h3>
+										<h3 class="headline-xxs anim-split-lines" data-scroll data-scroll-offset="20%">IPhone kombucha shaman gastropub</h3>
 									</div>
 								</div><!-- column end -->
 								<!-- column start -->
 								<div class="eight-columns column-100-999 padding-top-20">
-									<p class="body-text-m text-color-dadada anim-split-lines" data-scroll data-scroll-offset="20%">We develop customized web solutions that meet your specific needs. Our team of experts prioritizes user experience, pays attention to every detail, and believes in open communication with our clients. We build long-term partnerships with our clients, providing ongoing support and maintenance services to ensure that your website continues to perform at its best. Contact us today to discuss how we can help you establish a strong digital presence and achieve your business goals.</p>
+									<p class="body-text-m text-color-dadada anim-split-lines" data-scroll data-scroll-offset="20%">IPhone kombucha shaman gastropub snackwave 90's lo-fi pug chillwave pok pok tofu. Swag deep v listicle roof party seitan man braid raclette church-key trust fund locavore vexillologist green juice raw denim tilde meh. Austin thundercats locavore taiyaki snackwave hoodie put a bird on it tattooed selvage kitsch ramps. Godard slow-carb chartreuse occupy, tumblr letterpress pok pok tattooed yr lyft yuccie kinfolk.</p>
 								</div><!-- column end -->
 							</div><!-- flex-container end -->
 						</div><!-- padding-top-bottom-120 end -->
@@ -331,7 +320,7 @@
 					<!-- background start -->
 					<div class="hidden-box" data-scroll-section>
 						<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.5">
-							<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/stg2.jpg')}}" alt="project image">
+							<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/aiapp1.png')}}" alt="project image">
 						</div>
 					</div><!-- background end -->
 
@@ -343,7 +332,7 @@
 							<div class="flex-container">
 								<!-- column start -->
 								<div class="four-columns column-100-999 padding-top-20">
-									<h2 class="headline-xxs max-width-300 anim-split-lines" data-scroll data-scroll-offset="30%">UI/UX Design</h2>
+									<h2 class="headline-xxs max-width-300 anim-split-lines" data-scroll data-scroll-offset="30%">IPhone humblebrag kale chips</h2>
 								</div><!-- column end -->
 
 								<!-- column start -->
@@ -355,9 +344,16 @@
 							</div><!-- flex-container end -->
 
 							<div class="padding-top-120">
-								<a href="assets/images/portfolio/project_06/uiux1.jpg" class="d-block hidden-box js-pointer-zoom js-photo-popup">
+								<a href="assets/images/portfolio/project_06/appui1.png" class="d-block hidden-box js-pointer-zoom js-photo-popup">
 									<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-										<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/uiux1.jpg')}}" alt="project image">
+										<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/appui1.png')}}" alt="project image">
+									</div>
+								</a>
+							</div>
+							<div class="padding-top-120">
+								<a href="assets/images/portfolio/project_06/appux1.png" class="d-block hidden-box js-pointer-zoom js-photo-popup">
+									<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
+										<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/appux1.png')}}" alt="project image">
 									</div>
 								</a>
 							</div>
@@ -372,7 +368,7 @@
 							<div class="container flex-container padding-top-100 padding-bottom-120">
 								<!-- column start -->
 								<div class="four-columns column-100-999 padding-top-20">
-									<h2 class="headline-xxs text-color-black max-width-300 anim-split-lines" data-scroll data-scroll-offset="30%">Back-End Development</h2>
+									<h2 class="headline-xxs text-color-black max-width-300 anim-split-lines" data-scroll data-scroll-offset="30%">Austin fam chia cold-pressed raw</h2>
 								</div><!-- column end -->
 
 								<!-- column start -->
@@ -388,21 +384,11 @@
 					<!-- background start -->
 					<div class="hidden-box" data-scroll-section>
 						<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.5">
-							<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/bke1.jpg')}}" alt="project image">
+							<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/flat1.png')}}" alt="project image">
 						</div>
 					</div><!-- background end -->
 
-					<!-- section-bg-light start -->
-					<div class="section-bg-light" data-scroll-section>
-						<div class="container padding-bottom-120">
-							<div class="padding-top-120">
-								<a href="{{ asset('assets/images/portfolio/project_06/paul-volkmer-updW-QUccFE-unsplash.jpg')}}" class="d-block hidden-box js-pointer-zoom js-photo-popup">
-									<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.3">
-									</div>
-								</a>
-							</div>
-						</div>
-					</div><!-- section-bg-light end -->
+					
 
 					<!-- section-bg-dark start -->
 					<section class="section-bg-dark" data-scroll-section>
@@ -412,7 +398,7 @@
 							<div class="container flex-container padding-top-100 padding-bottom-120">
 								<!-- column start -->
 								<div class="four-columns column-100-999 padding-top-20">
-									<h2 class="headline-xxs max-width-300 anim-split-lines" data-scroll data-scroll-offset="30%">Front-End Development</h2>
+									<h2 class="headline-xxs max-width-300 anim-split-lines" data-scroll data-scroll-offset="30%">Retro jean shorts cronut lumbersexual</h2>
 								</div><!-- column end -->
 
 								<!-- column start -->
@@ -428,7 +414,7 @@
 					<!-- background start -->
 					<div class="hidden-box" data-scroll-section>
 						<div class="scrollanim-activate" data-scroll data-scroll-speed="-1.5">
-							<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/fe1.jpg')}}" alt="project image">
+							<img class="anim-opacity-scale" src="{{ asset('assets/images/portfolio/project_06/boost1.png')}}" alt="project image">
 						</div>
 					</div><!-- background end -->
 
@@ -461,25 +447,25 @@
 										<div class="swiper-wrapper slider-scrollanim-activate" data-scroll>
 											<!-- swiper-slide start -->
 											<div class="swiper-slide">
-												<a href="{{ asset('assets/images/portfolio/project_06/maksim-larin-1vy2QcZd5FU-unsplash.jpg')}}" class="anim-scale d-block js-photo-popup js-pointer-zoom">
+												<a href="assets/images/portfolio/project_06/maksim-larin-1vy2QcZd5FU-unsplash.jpg" class="anim-scale d-block js-photo-popup js-pointer-zoom">
 													<img class="anim-scale__inner" src="{{ asset('assets/images/portfolio/project_06/maksim-larin-1vy2QcZd5FU-unsplash.jpg')}}" alt="project image">
 												</a>
 											</div><!-- swiper-slide end -->
 											<!-- swiper-slide start -->
 											<div class="swiper-slide">
-												<a href="{{ asset('assets/images/portfolio/project_06/maksim-larin-Ai356rggKvw-unsplash.jpg')}}" class="anim-scale d-block js-photo-popup js-pointer-zoom">
+												<a href="assets/images/portfolio/project_06/maksim-larin-Ai356rggKvw-unsplash.jpg" class="anim-scale d-block js-photo-popup js-pointer-zoom">
 													<img class="anim-scale__inner" src="{{ asset('assets/images/portfolio/project_06/maksim-larin-Ai356rggKvw-unsplash.jpg')}}" alt="project image">
 												</a>
 											</div><!-- swiper-slide end -->
 											<!-- swiper-slide start -->
 											<div class="swiper-slide">
-												<a href="{{ asset('assets/images/portfolio/project_06/maksim-larin-LtB12xWnkpw-unsplash.jpg')}}" class="anim-scale d-block js-photo-popup js-pointer-zoom">
+												<a href="assets/images/portfolio/project_06/maksim-larin-LtB12xWnkpw-unsplash.jpg" class="anim-scale d-block js-photo-popup js-pointer-zoom">
 													<img class="anim-scale__inner" src="{{ asset('assets/images/portfolio/project_06/maksim-larin-LtB12xWnkpw-unsplash.jpg')}}" alt="project image">
 												</a>
 											</div><!-- swiper-slide end -->
 											<!-- swiper-slide start -->
 											<div class="swiper-slide">
-												<a href="{{ asset('assets/images/portfolio/project_06/maksim-larin-NOpsC3nWTzY-unsplash.jpg')}}" class="anim-scale d-block js-photo-popup js-pointer-zoom">
+												<a href="assets/images/portfolio/project_06/maksim-larin-NOpsC3nWTzY-unsplash.jpg" class="anim-scale d-block js-photo-popup js-pointer-zoom">
 													<img class="anim-scale__inner" src="{{ asset('assets/images/portfolio/project_06/maksim-larin-NOpsC3nWTzY-unsplash.jpg')}}" alt="project image">
 												</a>
 											</div><!-- swiper-slide end -->

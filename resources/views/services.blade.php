@@ -73,24 +73,10 @@
 				<!-- menu-box start -->
 				<ul class="menu-box nav-bg-overlay-box">
 					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-nav-bg-change js-dropdown-open">
-						<a class="nav-btn dropdown-hidden-btn js-pointer-large">
+					<li class="nav-btn-box js-nav-bg-change">
+						<a href="{{ route('home') }}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
 							<span class="nav-btn__inner" data-text="Home">Home</span>
 						</a>
-
-						<!-- dropdown start -->
-						<ul class="menu-box dropdown js-dropdown">
-							<li class="nav-btn-box">
-								<a href="index.html" class="nav-btn js-animsition-link js-pointer-large">
-									<span class="nav-btn__inner" data-text="Home">Home</span>
-								</a>
-							</li>
-							<li class="nav-btn-box">
-								<a href="home_landing.html" class="nav-btn js-animsition-link js-pointer-large">
-									<span class="nav-btn__inner" data-text="One Page">One Page</span>
-								</a>
-							</li>
-						</ul><!-- dropdown end -->
 
 						<div class="nav-bg-box">
 							<div class="nav-bg" style="background-image: url(assets/images/menu/bonnet-casual-close-up-2802601.jpg);"></div>

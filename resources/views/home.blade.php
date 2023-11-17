@@ -108,10 +108,30 @@
 					</li><!-- nav-btn-box end -->
 
 					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-nav-bg-change">
-						<a href="{{ route('services') }}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
+					<li class="nav-btn-box js-nav-bg-change js-nav-bg-active js-dropdown-open">
+						<a class="nav-btn dropdown-hidden-btn js-pointer-large">
 							<span class="nav-btn__inner" data-text="Services">Services</span>
 						</a>
+
+						<!-- dropdown start -->
+						<ul class="menu-box dropdown js-dropdown">
+							<li class="nav-btn-box">
+								<a href="{{ route('services') }}" class="nav-btn js-animsition-link js-pointer-large">
+									<span class="nav-btn__inner" data-text="All Services">All Services</span>
+								</a>
+							</li>
+							<li class="nav-btn-box">
+								<a href="{{ route('web_development')}}" class="nav-btn js-animsition-link js-pointer-large">
+									<span class="nav-btn__inner" data-text="Web Development">Web Development</span>
+								</a>
+							</li>
+							<li class="nav-btn-box">
+								<a href="{{ route('app_development')}}" class="nav-btn js-animsition-link js-pointer-large">
+									<span class="nav-btn__inner" data-text="App Development">App Development</span>
+								</a>
+							</li>
+						</ul><!-- dropdown end -->
+						
 						<div class="nav-bg-box">
 							<div class="nav-bg" style="background-image: url(assets/images/menu/two-vases-on-table-842950.jpg);"></div>
 						</div>
@@ -892,7 +912,7 @@
 															</div>
 														</div>
 														<div class="six-columns padding-top-20">
-															<img src="{{ asset('assets/images/home projects/quality.png')}}" alt="Advantages">
+															<img src="{{ asset('assets/images/home projects/quality.jpg')}}" alt="Advantages">
 														</div>
 													</div>
 												</div><!-- swiper-slide end -->
