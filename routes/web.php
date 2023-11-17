@@ -42,31 +42,17 @@ Route::get('/app-development', function () {
     return view('app_development');
 })->name('app_development');
 
+Route::get('/enterprise-software-development', function () {
+    return view('enterprise_software_development');
+})->name('enterprise_software_development');
+
+Route::get('/graphics-design', function () {
+    return view('graphics_design');
+})->name('graphics_design');
+
 Route::get('/digital-marketing', function () {
     return view('digital_marketing');
 })->name('digital_marketing');
-
-
-
-Route::get('/copy-writing', function () {
-    return view('copy_writing');
-})->name('copy_writing');
-
-Route::get('/software-development', function () {
-    return view('software_development');
-})->name('software_development');
-
-Route::get('/seo', function () {
-    return view('seo');
-})->name('seo');
-
-Route::get('/social-media-marketing', function () {
-    return view('social_media_marketing');
-})->name('social_media_marketing');
-
-
-
-
 
 
 

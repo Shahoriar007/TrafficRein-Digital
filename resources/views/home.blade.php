@@ -73,24 +73,10 @@
 				<!-- menu-box start -->
 				<ul class="menu-box nav-bg-overlay-box">
 					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-nav-bg-change js-nav-bg-active js-dropdown-open">
-						<a class="nav-btn dropdown-hidden-btn js-pointer-large">
+					<li class="nav-btn-box js-nav-bg-change">
+						<a  href="{{route('home')}}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
 							<span class="nav-btn__inner" data-text="Home">Home</span>
 						</a>
-
-						<!-- dropdown start -->
-						<ul class="menu-box dropdown js-dropdown">
-							<li class="nav-btn-box">
-								<a href="index.html" class="nav-btn js-animsition-link js-pointer-large">
-									<span class="nav-btn__inner" data-text="Home">Home</span>
-								</a>
-							</li>
-							<li class="nav-btn-box">
-								<a href="home_landing.html" class="nav-btn js-animsition-link js-pointer-large">
-									<span class="nav-btn__inner" data-text="One Page">One Page</span>
-								</a>
-							</li>
-						</ul><!-- dropdown end -->
 
 						<div class="nav-bg-box">
 							<div class="nav-bg" style="background-image: url(assets/images/menu/bonnet-casual-close-up-2802601.jpg);"></div>
@@ -130,6 +116,21 @@
 									<span class="nav-btn__inner" data-text="App Development">App Development</span>
 								</a>
 							</li>
+							<li class="nav-btn-box">
+								<a href="{{ route('enterprise_software_development')}}" class="nav-btn js-animsition-link js-pointer-large">
+									<span class="nav-btn__inner" data-text="Enterprise Software Development">Enterprise Software Development</span>
+								</a>
+							</li>
+							<li class="nav-btn-box">
+								<a href="{{ route('graphics_design')}}" class="nav-btn js-animsition-link js-pointer-large">
+									<span class="nav-btn__inner" data-text="Graphics Design">Graphics Design</span>
+								</a>
+							</li>
+							<li class="nav-btn-box">
+								<a href="{{ route('digital_marketing')}}" class="nav-btn js-animsition-link js-pointer-large">
+									<span class="nav-btn__inner" data-text="Digital Marketing">Digital Marketing</span>
+								</a>
+							</li>
 						</ul><!-- dropdown end -->
 						
 						<div class="nav-bg-box">
@@ -138,12 +139,12 @@
 					</li><!-- nav-btn-box end -->
 
 					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-nav-bg-change js-dropdown-open">
+					{{-- <li class="nav-btn-box js-nav-bg-change js-dropdown-open">
 						<a class="nav-btn dropdown-hidden-btn js-pointer-large">
 							<span class="nav-btn__inner" data-text="Portfolio">Portfolio</span>
 						</a>
 
-						<!-- dropdown start -->
+						
 						<ul class="menu-box dropdown js-dropdown">
 							<li class="nav-btn-box">
 								<a href="portfolio_fullscreen.html" class="nav-btn js-animsition-link js-pointer-large">
@@ -170,22 +171,23 @@
 									<span class="nav-btn__inner" data-text="Creative Grid">Creative Grid</span>
 								</a>
 							</li>
-						</ul><!-- dropdown end -->
+						</ul>
 
 						<div class="nav-bg-box">
 							<div class="nav-bg" style="background-image: url(assets/images/menu/goashape-RvyJGaoaWrs-unsplash.jpg);"></div>
 						</div>
-					</li><!-- nav-btn-box end -->
+					</li> --}}
+					<!-- nav-btn-box end -->
 
 					<!-- nav-btn-box start -->
-					<li class="nav-btn-box js-nav-bg-change">
+					{{-- <li class="nav-btn-box js-nav-bg-change">
 						<a href="blog.html" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
 							<span class="nav-btn__inner" data-text="Blog">Blog</span>
 						</a>
 						<div class="nav-bg-box">
 							<div class="nav-bg" style="background-image: url(assets/images/menu/face-facial-hair-fashionable-2555100.jpg);"></div>
 						</div>
-					</li><!-- nav-btn-box end -->
+					</li><!-- nav-btn-box end --> --}}
 
 					<!-- nav-btn-box start -->
 					<li class="nav-btn-box js-nav-bg-change">
@@ -197,7 +199,8 @@
 						</div>
 					</li><!-- nav-btn-box end -->
 				</ul><!-- menu-box end -->
-			</div><!-- nav-box end -->
+			</div>
+			<!-- nav-box end -->
 		</nav><!-- navigation end -->
 
 		<!-- scroll-content start -->
