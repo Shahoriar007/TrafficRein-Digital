@@ -15,7 +15,7 @@
 
 		<title>TrafficRein Digital</title>
 
-		<!-- fonts -->
+		<!-- fonts  -->
 		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 		<!-- styles -->
@@ -43,7 +43,7 @@
 		<header class="fixed-header">
 			<!-- logo start -->
 			<div class="header-logo">
-				<a href="index.html" class="header-logo__box js-pointer-large js-animsition-link">
+				<a href="{{ route('home')}}" class="header-logo__box js-pointer-large js-animsition-link">
 					<img class="header-logo__img" src="{{ asset('assets/images/logo/logo.png')}}" alt="logo">
 				</a>
 			</div><!-- logo end -->
@@ -169,7 +169,7 @@
 
 					<!-- nav-btn-box start -->
 					<li class="nav-btn-box js-nav-bg-change">
-						<a href="contact.html" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
+						<a href="{{ route('contact') }}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
 							<span class="nav-btn__inner" data-text="Contact">Contact</span>
 						</a>
 						<div class="nav-bg-box">
@@ -991,7 +991,7 @@
 							<div class="four-columns padding-top-90">
 								<ul class="column-l-r-margin-10 list">
 									<li class="list__item">
-										<a href="index.html" class="footer-nav-btn js-pointer-small js-animsition-link">Home</a>
+										<a href="{{ route('home') }}" class="footer-nav-btn js-pointer-small js-animsition-link">Home</a>
 									</li>
 									<li class="list__item">
 										<a href="about.html" class="footer-nav-btn js-pointer-small js-animsition-link">About</a>
@@ -1006,7 +1006,7 @@
 										<a href="blog.html" class="footer-nav-btn js-pointer-small js-animsition-link">Blog</a>
 									</li>
 									<li class="list__item">
-										<a href="contact.html" class="footer-nav-btn js-pointer-small js-animsition-link">Contact</a>
+										<a href="{{ route('contact') }}" class="footer-nav-btn js-pointer-small js-animsition-link">Contact</a>
 									</li>
 								</ul>
 							</div><!-- column end -->
