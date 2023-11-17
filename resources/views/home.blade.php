@@ -169,7 +169,7 @@
 
 					<!-- nav-btn-box start -->
 					<li class="nav-btn-box js-nav-bg-change">
-						<a href="{{ route('contact') }}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
+						<a href="{{  route('contact') }}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
 							<span class="nav-btn__inner" data-text="Contact">Contact</span>
 						</a>
 						<div class="nav-bg-box">
