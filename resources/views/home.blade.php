@@ -109,7 +109,7 @@
 
 					<!-- nav-btn-box start -->
 					<li class="nav-btn-box js-nav-bg-change">
-						<a href="services.html" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
+						<a href="{{ route('services') }}" class="nav-btn dropdown-hidden-btn js-animsition-link js-pointer-large">
 							<span class="nav-btn__inner" data-text="Services">Services</span>
 						</a>
 						<div class="nav-bg-box">
@@ -997,7 +997,7 @@
 										<a href="about.html" class="footer-nav-btn js-pointer-small js-animsition-link">About</a>
 									</li>
 									<li class="list__item">
-										<a href="services.html" class="footer-nav-btn js-pointer-small js-animsition-link">Services</a>
+										<a href="{{ route('services') }}" class="footer-nav-btn js-pointer-small js-animsition-link">Services</a>
 									</li>
 									<li class="list__item">
 										<a href="portfolio_fullscreen.html" class="footer-nav-btn js-pointer-small js-animsition-link">Portfolio</a>
